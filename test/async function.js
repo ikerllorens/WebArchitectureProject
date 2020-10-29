@@ -1,0 +1,3 @@
+_(function () {
+	asyncFunciton();
+}).defer();

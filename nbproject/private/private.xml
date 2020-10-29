@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/app/routes.js</file>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/app/modules/materias/collections/materiasCollection.js</file>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/app/modules/inscripcion/collections/inscripcionHorasCollection.js</file>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/app/modules/materias/materias.js</file>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/app/modules/inscripcion/views/inscripcionHorarioView.js</file>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/app/modules/horario/collections/horasCollection.js</file>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/app/modules/inscripcion/models/inscripcionMateriaInfoModel.js</file>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/app/main.js</file>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/app/templates/MateriasInfoView.html</file>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/app/modules/inscripcion/collections/inscripcionMateriasInfoCollection.js</file>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/app/templates/MateriasView.html</file>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/assets/resources/infoMaterias.json</file>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/assets/resources/carreras.json</file>
+            <file>file:/Users/diegomartin/Dropbox/Shared%20Folders/Arquitectura%20Web/Proyecto%20Final/public_html/main/assets/js/mainHelper.js</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,91 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="input-group custom-search-input">
+            <input type="text" class="search-query form-control" placeholder="Nombre o Clave" id="nombreClave"/>
+            <span class="input-group-btn">
+                <button class="btn btn-danger buscarMaterias" type="button">
+                    <span class=" glyphicon glyphicon-search"></span>
+                </button>
+            </span>
+        </div>
+    </div>
+</div>
+<hr class="bigHr">
+<div class="row">
+    <div class="col-md-12 sameHeight">
+        <button type="submit" class="btn  btn-danger btn-block filterMargin buscarMaterias">Buscar</button>
+        <hr class="filterHr">
+        <select class="form-control filterSelect" id="semestre">
+            <option selected disabled>Semestre</option>
+            <option value="1">Primero</option>
+            <option value="2">Segundo</option>
+            <option value="3">Tercero</option>
+            <option value="4">Cuarto</option>
+            <option value="5">Quinto</option>
+            <option value="6">Sexto</option>
+            <option value="7">S&eacute;ptimo</option>
+            <option value="8">Octavo</option>
+            <option value="9">Noveno</option>
+        </select>
+        <hr class="filterHr">
+        <div class="checkbox">
+            <label>
+                <input id="incReflexiones" type="checkbox">Incluir Reflexiones
+            </label>
+        </div>
+        <select id="reflexiones" class="form-control filterSelect" disabled>
+            <option selected disabled>Reflexiones</option>
+            <option value="1">Uno</option>
+            <option value="2">Dos</option>
+            <option value="3">Tres</option>
+            <option value="4">Cuatro</option>
+        </select>
+        <hr class="filterHr">
+        <button type="submit" id="verOptativas" class="btn  btn-danger btn-block filterMargin ">Ver Optativas</button>
+    </div>
+</div>
+<hr class="bigHr">
+<div class="row">
+    <div class="col-md-12 sameHeight tableWell">
+        <div id="tableContainer" class="table-responsive centered">
+            <table id="inscripcionMateriasTable" class="table table-striped dt-responsive display nowrap">
+                <thead>
+                    <tr>
+                        <th>Clave</th>
+                        <th>|Nombre</th>
+                        <th>|Horas</th>
+                        <th>|Cr&eacute;ditos</th>
+                        <th>|+info</th>
+                    </tr>
+                </thead>
+                <tbody class=" text-left"></tbody>
+                <tfoot>
+                    <tr>
+                        <th>Clave</th>
+                        <th>|Nombre</th>
+                        <th>|Horas</th>
+                        <th>|Cr&eacute;ditos</th>
+                        <th>|+info</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <!-- Info Materia Modal -->
+    <div class="modal fade" id="inscripcionMateriasInfoDialog" tabindex="-1" role="dialog" aria-labelledby="inscripcionMateriasInfoNombre" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="inscripcionMateriasInfoNombre"></h4>
+                </div>
+                <div class="modal-body">
+                    <div id="inscripcionMateriasInfoData" style='overflow-x: scroll'></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

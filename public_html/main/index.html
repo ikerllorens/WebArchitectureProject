@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UIA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Styles-->
+        <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" >
+        <!-- DataTables Bootstrap style -->
+        <link href="assets/css/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+
+        <!-- Font Awesome Icons -->
+        <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css" />
+
+        <!-- Theme style -->
+        <!-- Menu style -->
+        <link href="assets/css/header.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/skin-red.css" rel="stylesheet" type="text/css" />
+        <!-- Horario style -->
+        <link href="assets/css/horario.css" rel="stylesheet" type="text/css" />
+        <!-- Materias style -->
+        <link href="assets/css/materias.css" rel="stylesheet" type="text/css" />
+        <!-- Perfil style -->
+        <link href="assets/css/perfil.css" rel="stylesheet" type="text/css" />
+        <!-- Inscripcion Info style -->
+        <link href="assets/css/inscripcionInfoView.css" rel="stylesheet" type="text/css" />
+        <!-- Inscripcion Horario style -->
+        <link href="assets/css/inscripcionHorarioView.css" rel="stylesheet" type="text/css" />
+
+    </head>
+    <body class= "skin-red sidebar-collapse static">
+        <div class="wrapper">
+            <div id="header"></div>
+            <!-- Content Wrapper. Contiene toda la aplicacion -->
+            <div class="content-wrapper" >
+                <!-- Content Header. Encabezado del contenido, ruta de la pagina y su titulo  -->
+                <section class="content-header">
+                    <h1>
+                        <label id="pageTitle">Principal</label>
+                        <small id="pageDescription">Universidad Iberoamericana</small>
+                    </h1>
+                    <!-- Seccion de ruta. Muestra en donde se encuentra el usuario dentro de la aplicacion web -->
+                    <ol id="pathBar" class="breadcrumb">
+                        <li><a href="#"><i class="fa fa-dashboard"></i> Inicio</a></li>
+                        <li>Principal</li>
+                    </ol>
+                    <!-- Contenido de la aplicacion, aqui es donde los modulos se muestran -->
+                    <div style="padding-top: 10px;" id="content"></div>
+                </section>
+            </div>
+            <div id="footer"></div>
+        </div>
+        
+        <!-- Vendor (Todas las bibliotecas externas que se vayan a usar i.e JQuery, Backbone, etc) -->
+
+        <!-- JQuery 1.11.2 -->
+        <script src="assets/libs/jquery-1.11.2.js"></script>
+        <script src="assets/libs/jquery.touchSwipe.js"></script>
+        <!-- Underscore 1.8.3 -->
+        <script src="assets/libs/underscore-1.8.3.js"></script>
+        <!-- Backbone 1.1.2 -->
+        <script src="assets/libs/backbone-1.1.2.js"></script>
+        <!-- Bootstrap 3.3.4 -->
+        <script src="assets/libs/bootstrap.js"></script>
+         <!-- DataTables -->
+        <script src="assets/libs/jquery.dataTables.js"></script>
+        <script src="assets/libs/dataTables.bootstrap.js"></script>
+
+        <!-- App -->       
+        <script src="app/main.js"></script>
+
+        <!-- Shared (Vistas compartidas i.e. Header y Footer) -->
+
+        <!-- Header -->
+        <script src="app/shared/header.js"></script>
+        <!-- Footer -->
+        <script src="app/shared/footer.js"></script>
+
+        <!-- Modules (Con sus respectivos Views, Models y Collections) -->
+
+        <!-- Not Found -->
+        <!-- Main View -->
+        <script src="app/shared/notFound.js"></script>
+        <!-- Home -->
+        <!-- Main View -->
+        <script src="app/modules/home/home.js"></script>
+
+        <!-- Historia -->
+        <!-- Main View -->
+        <script src="app/modules/historia/historia.js"></script>
+
+        <!-- Horario -->
+        <!-- Main View -->
+        <script src="app/modules/horario/horario.js"></script>        
+        <script src="app/modules/horario/models/infoHoraModel.js"></script>
+        <script src="app/modules/horario/collections/infoHorasCollection.js"></script>
+        <script src="app/modules/horario/models/horaModel.js"></script> 
+        <script src="app/modules/horario/collections/horasCollection.js"></script>
+        
+        <!-- Inscripcion -->
+        <!-- Main View -->
+        <script src="app/modules/inscripcion/inscripcion.js"></script>
+        <script src="app/modules/inscripcion/views/inscripcionHorarioView.js"></script>
+        <script src="app/modules/inscripcion/views/inscripcionMateriasView.js"></script>
+        <script src="app/modules/inscripcion/views/inscripcionInfoView.js"></script>
+        <script src="app/modules/inscripcion/models/inscripcionInfoHoraModel.js"></script>
+        <script src="app/modules/inscripcion/collections/inscripcionInfoHorasCollection.js"></script>
+        <script src="app/modules/inscripcion/models/inscripcionHoraModel.js"></script> 
+        <script src="app/modules/inscripcion/collections/inscripcionHorasCollection.js"></script>
+        
+        <script src="app/modules/inscripcion/models/inscripcionMateriaModel.js"></script>
+        <script src="app/modules/inscripcion/collections/inscripcionMateriasCollection.js"></script>
+        
+        <script src="app/modules/inscripcion/views/inscripcionMateriasInfoView.js"></script>
+        <script src="app/modules/inscripcion/models/inscripcionMateriaInfoModel.js"></script>
+        <script src="app/modules/inscripcion/collections/inscripcionMateriasInfoCollection.js"></script>
+        
+        <script src="app/modules/inscripcion/models/inscripcionHorarioInfoGrupoModel.js"></script>
+        <script src="app/modules/inscripcion/collections/inscripcionHorarioInfoGruposCollection.js"></script>
+        <script src="app/modules/inscripcion/views/inscripcionHorarioInfoGruposView.js"></script>
+        
+        <!-- Materias -->
+        <!-- Main View -->
+        <script src="app/modules/materias/materias.js"></script>
+        <script src="app/modules/materias/models/materiaModel.js"></script>
+        <script src="app/modules/materias/collections/materiasCollection.js"></script>
+        <script src="app/modules/materias/views/materiasInfoView.js"></script>
+        <script src="app/modules/materias/models/materiaInfoModel.js"></script>
+        <script src="app/modules/materias/collections/materiasInfoCollection.js"></script>
+
+        <!-- Profile -->
+        <!-- Main View -->
+        <script src="app/modules/perfil/perfil.js"></script>
+
+        <!-- Routes -->
+        <script src="app/routes.js"></script>
+        
+        <!-- Funciones no relacionadas a Backbone.js -->
+        <script src="assets/js/mainHelper.js"></script>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<div class="container">
+    <div id = "loginBox" class="container-fluid">
+        <!--login modal-->
+        <div id="loginModal" class="modal show" >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">  
+                        <h1 class="text-center">Inicio de sesi&oacute;n</h1>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-2">
+                            </div>
+                            <div class="col-xs-8 center-block text-center">
+                                <div class="form-inline center-block">
+                                    <div class="form-group center-block">
+                                        <input type="text" id="numCuenta" class="form-control input-lg" placeholder="N&uacute;mero de Cuenta" maxlength="6" autocomplete="true" required="true" autofocus="true"> - 
+                                        <input type="text" id="digitVerif" class="form-control input-lg" placeholder="-" maxlength="1" size="1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-2">
+                            </div>
+                            <div class="col-xs-8 center-block text-center">
+                                <div class="form-inline center-block">
+                                    <div class="form-group center-block">
+                                        <input type="password" id="pswd" class="form-control input-lg" style="width: 100%; " size="27" required="true" maxlength="8" placeholder="Contrase&ntilde;a">       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <button type="button" id="loginButton" class="btn btn-danger center-block">Entrar</button>
+                        </div>
+                        <br>
+                        <div class="row" id="error" hidden="true">
+                            <label class="text-center center-block" style="color:rgb(240, 0 ,0 )">Favor de llenar correctamente los campos</label> <!--TODO: meter style a css-->
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="col-xs-12 center-text">
+                            Universidad Iberoamericana<br>
+                            Arquitectura Web
+                            <!--<button class="btn" data-dismiss="modal" aria-hidden="true">Cancelar</button>-->
+                        </div>	
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

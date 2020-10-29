@@ -1,0 +1,30 @@
+[
+    {
+        "clave": "00001",
+        "nombre": "Arquitectura Web",
+        "depto": "Electr&oacute;nica",
+        "horas": "6",
+        "creditos": "10"
+    },
+    {
+        "clave": "00002",
+        "nombre": "Comunicaciones Inal&aacute;mbricas",
+        "depto": "Electr&oacute;nica",
+        "horas": "4",
+        "creditos": "8"
+    },
+    {
+        "clave": "00003",
+        "nombre": "Control",
+        "depto": "Electr&oacute;nica",
+        "horas": "8",
+        "creditos": "12"
+    },
+    {
+        "clave": "00004",
+        "nombre": "Arquitectura de Programaci&oacute;n",
+        "depto": "Electr&oacute;nica",
+        "horas": "4",
+        "creditos": "8"
+    }
+]

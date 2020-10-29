@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 19, 2015, 10:02:41 AM
+    Author     : JuanPTC
+*/
+
+.sin-materia{
+}
+
+.ocupado{
+}
+
+.conflicto{
+    background: #DA4500;
+}
+
+
+@media 
+only screen and (max-width: 640px){
+    #hrTable {
+        display: none;
+    }
+    #hrTabed {
+        display: block;
+    }
+}
+

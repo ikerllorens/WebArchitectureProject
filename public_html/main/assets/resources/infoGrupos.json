@@ -1,0 +1,42 @@
+[
+    {
+        "idGrupo": "01",
+        "grupo": "A",
+        "materia": "Control",
+        "profesor": "John Doe",
+        "infoHorario": [
+            {
+                "dia": "Lunes",
+                "inicio": "11:00",
+                "fin": "13:00",
+                "salon": "CPB02"
+            },
+            {
+                "dia": "Miercoles",
+                "inicio": "11:00",
+                "fin": "13:00",
+                "salon": "CPB04"
+            }
+        ]
+    },
+    {
+        "idGrupo": "02",
+        "grupo": "B",
+        "materia": "Lolers3000",
+        "profesor": "Juan Perez",
+        "infoHorario": [
+            {
+                "dia": "Martes",
+                "inicio": "9:00",
+                "fin": "11:00",
+                "salon": "CPB12"
+            },
+            {
+                "dia": "Jueves",
+                "inicio": "9:00",
+                "fin": "11:00",
+                "salon": "CPB12"
+            }
+        ]
+    }
+]

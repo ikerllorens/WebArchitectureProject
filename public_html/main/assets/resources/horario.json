@@ -1,0 +1,86 @@
+[
+    {
+        "nombreMateria": "Introd. a los Negocios",
+        "idMateria": "2202",
+        "grupo": "D",
+        "infoHorario": [
+            {
+                "idHr": "14",
+                "salon": "  C135"
+            },
+            {
+                "idHr": "20",
+                "salon": "C135"
+            },
+            {
+                "idHr": "16",
+                "salon": "A205"
+            },
+            {
+                "idHr": "22",
+                "salon": "A205"
+            }
+        ]
+    },
+    {
+        "nombreMateria": "Ing. en Automatización",
+        "idMateria": "1810",
+        "grupo": "A",
+        "infoHorario": [
+            {
+                "idHr": "26",
+                "salon": "C220"
+            },
+            {
+                "idHr": "32",
+                "salon": "C220"
+            },
+            {
+                "idHr": "28",
+                "salon": "A205"
+            },
+            {
+                "idHr": "34",
+                "salon": "A205"
+            }
+        ]
+    },
+    {
+        "nombreMateria": "Redes Inalámbricas",
+        "idMateria": "2404",
+        "grupo": "B",
+        "infoHorario": [
+            {
+                "idHr": "26",
+                "salon": "A106"
+            },
+            {
+                "idHr": "32",
+                "salon": "A106"
+            }
+        ]
+    },
+    {
+        "nombreMateria": "Arquitectura de Info. Web",
+        "idMateria": "2303",
+        "grupo": "A",
+        "infoHorario": [
+            {
+                "idHr": "38",
+                "salon": "DPB12"
+            },
+            {
+                "idHr": "44",
+                "salon": "DPB12"
+            },
+            {
+                "idHr": "40",
+                "salon": "DPB12"
+            },
+            {
+                "idHr": "46",
+                "salon": "DPB12"
+            }
+        ]
+    }
+]

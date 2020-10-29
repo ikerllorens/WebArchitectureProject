@@ -1,0 +1,94 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 well">
+            <div class="input-group custom-search-input">
+                <input type="text" class="search-query form-control" placeholder="Nombre o Clave" id="nombreClave"/>
+                <span class="input-group-btn">
+                    <button class="btn btn-danger buscarMaterias" type="button">
+                        <span class=" glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 well sameHeight">
+            <button type="submit" class="btn  btn-danger btn-block filterMargin buscarMaterias">Buscar</button>
+            <hr class="filterHr">
+            <select class="form-control filterSelect" id="carrera">
+                <option selected disabled value="0">Carrera</option>
+            </select>
+            <select class="form-control filterSelect" id="semestre">
+                <option selected disabled value="0">Semestre</option>
+                <option value="1">Primero</option>
+                <option value="2">Segundo</option>
+                <option value="3">Tercero</option>
+                <option value="4">Cuarto</option>
+                <option value="5">Quinto</option>
+                <option value="6">Sexto</option>
+                <option value="7">S&eacute;ptimo</option>
+                <option value="8">Octavo</option>
+                <option value="9">Noveno</option>
+            </select>
+            <hr class="filterHr">
+            <div class="checkbox">
+                <label>
+                    <input id="incReflexiones" type="checkbox">Incluir Reflexiones
+                </label>
+            </div>
+            <select id="reflexiones" class="form-control filterSelect" disabled>
+                <option selected disabled>Reflexiones</option>
+                <option value="1">Uno</option>
+                <option value="2">Dos</option>
+                <option value="3">Tres</option>
+                <option value="4">Cuatro</option>
+            </select>
+            <hr class="filterHr">
+            <button disabled type="submit" id="verOptativas" class="btn  btn-danger btn-block filterMargin ">Ver Optativas</button>
+        </div>
+        <div class="col-md-10  well sameHeight tableWell">
+            <div id="tableContainer" class="table-responsive centered">
+                <table id="materiasTable" class="table table-striped dt-responsive display nowrap">
+                    <thead>
+                        <tr>
+                            <th>Clave</th>
+                            <th>|Nombre</th>
+                            <th>|Depto.</th>
+                            <th>|Horas</th>
+                            <th>|Cr&eacute;ditos</th>
+                            <th>|+info</th>
+                        </tr>
+                    </thead>
+                    <tbody class=" text-left"></tbody>
+                    <tfoot>
+                        <tr>
+                            <th>Clave</th>
+                            <th>|Nombre</th>
+                            <th>|Depto.</th>
+                            <th>|Horas</th>
+                            <th>|Cr&eacute;ditos</th>
+                            <th>|+info</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Info Materia Modal -->
+    <div class="modal fade" id="materiasInfoDialog" tabindex="-1" role="dialog" aria-labelledby="materiasInfoNombre" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="materiasInfoNombre"></h4>
+                </div>
+                <div class="modal-body">
+                    <div id="materiasInfoData"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

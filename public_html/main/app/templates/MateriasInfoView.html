@@ -1,0 +1,40 @@
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Grupo</th>  
+                <th>Profesor</th> 
+                <th>Horario</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <% _.each(collection, function(model) { %>
+            <tr>
+                <td><%= model.grupo %></td><td><%= model.profesor %></td>
+                <td>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Sal&oacute;n</th>
+                                <th>D&iacute;a</th>
+                                <th>Inicio</th>
+                                <th>Fin</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% for(var info in model.infoHorario) { %>
+                            <tr>
+                                <td><%= model.infoHorario[info].salon %></td> 
+                                <td><%= model.infoHorario[info].dia %></td>
+                                <td><%= model.infoHorario[info].inicio %></td> 
+                                <td><%= model.infoHorario[info].fin %></td>
+                            </tr>
+                            <%} %>
+                        </tbody>                        
+                    </table>                    
+                </td>
+            </tr>
+            <%}); %>   
+        </tbody>
+    </table>
+</div>

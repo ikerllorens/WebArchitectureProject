@@ -1,0 +1,127 @@
+<!-- Main Header -->
+<header class="main-header">
+
+    <!-- Logo -->
+    <!--Si no se quiere que el logo abra el menu solamente se debe dejar como atributo class="logo" y eliminar lo dem�s-->
+    <a class="logo">
+        <span class=" text-left" aria-hidden="true"></span>
+        <b class="text-right">IBERO</b>
+    </a>
+
+
+    <!-- Encabezado del Navbar -->
+    <nav class="navbar navbar-static-top" role="navigation">
+
+        <a href="#" class="sidebar-toggle" data-toggle="" role="button" id="toggleSidemenu">
+
+        </a>
+        <!-- Menu derecho del Navbar -->
+        <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav static">               
+                <!-- Menu de la cuenta del usuario -->
+                <li class="dropdown user user-menu">             
+                    <!-- Menu de Toggle Button -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <!-- hidden-xs esconde el nombre de usuario en dispoitivos pequeños para que solo aparesca la imagen. -->
+                        <span id="userButton">
+                            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                        </span>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <!-- Imagen del usuario en el menu -->
+                        <li class="user-header">
+                            <!--<img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />-->
+                            <p>
+                                <label class="nombreUsuario">Alexander Pierce</label>
+                                <small class="nombreCarrera">Ingenier&iacute;a en Tecnolog&iacute;as de C&oacute;mputo y Telecomunicaciones</small>
+                            </p>
+                        </li>
+                        <!-- Cuerpo del Menu -->
+
+                        <!-- Pie del Menu -->
+                        <li class="user-footer">
+                            <div class="pull-left">
+                                <a href="#perfil" class="btn btn-default">Perfil</a>
+                            </div>
+                            <div class="pull-right">
+                                <a href="#" class="btn btn-default">Cerrar Sesi&oacute;n</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- Columna izquierda. Contiene el logo y la barra lateral -->
+<div class="main-sidebar" id="sideBarID">
+
+    <!-- Barra lateral: El estilo se puede ver en sidebar.less -->
+    <section class="sidebar">
+
+        <!-- Panel de usuario de la barra lateral (opcional) -->
+        <div class="user-panel">
+            <div class="pull-left info">
+                <p class="nombreUsuario">Alexander Pierce</p>
+                <label class="nombreCarrera">Ingenier&iacute;a en Tecnolog&iacute;as de C&oacute;mputo y Telecomunicaciones</label>
+            </div>
+        </div>
+
+        <!-- Menu de la barra lateral -->
+        <ul class="sidebar-menu" id="sidebarLeft">
+            <li class="header">Men&uacute;</li>
+            <!-- Opcional: Se le pueden agregar iconos a los vinculos -->
+
+            <li class="lista-menu active"><a href="#"><span>Principal</span></a></li>
+
+            <li class="treeview">
+                <a href="#"><span>Tesorer&iacute;a</span> <i class="fa fa-angle-left pull-right"></i></a>
+                <ul class="treeview-menu">
+                    <li class="lista-menu"><a href="#tesoreria/pagos_en_linea">Pagos en L&iacute;nea</a></li>
+                    <li class="treeview">
+                        <a href="#"><span>Consultas</span> <i class="fa fa-angle-left pull-right"></i></a>
+                        <ul class="treeview-menu">
+                            <li class="lista-menu"><a href="#tesoreria/consultas/estados_de_cuenta">Estado de Cuenta</a></li>
+                            <li class="lista-menu"><a href="#esoreria/consultas/adeudos_finanzas">Adeudos Finanzas</a></li>
+                            <li class="lista-menu"><a href="#esoreria/consultas/ultimos_pagos">&Uacute;ltimos Pagos</a></li>
+                            <li class="lista-menu"><a href="#esoreria/consultas/presupuesto_cuotas">Presupuesto Cuotas</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#"><span>Facturaci&oacute;n</span> <i class="fa fa-angle-left pull-right"></i></a>
+                        <ul class="treeview-menu">
+                            <li class="lista-menu"><a href="#tesoreria/facturacion/solicitar_factura">Solicitar Factura</a></li>
+                            <li class="lista-menu"><a href="#tesoreria/facturacion/descargar_factura">Descargar Factura</a></li>
+                        </ul>
+                    </li>
+                    <li class="lista-menu"><a href="#tesoreria/boletas_de_pago">Boletas de Pago</a></li>
+                </ul>
+            </li>
+
+            <li class="treeview">
+                <a href="#"><span>Servicios Escolares</span> <i class="fa fa-angle-left pull-right"></i></a>
+                <ul class="treeview-menu">
+                    <li class="treeview">
+                        <a href="#"><span>Datos Escolares</span> <i class="fa fa-angle-left pull-right"></i></a>
+                        <ul class="treeview-menu">
+                            <li class="lista-menu"><a href="#servicios_escolares/datos_escolares/historia">Historia</a></li>
+                            <li class="lista-menu"><a href="#servicios_escolares/datos_escolares/materias">Materias</a></li>
+                            <li class="lista-menu"><a href="#servicios_escolares/datos_escolares/horario">Horario</a></li>
+                            <li class="lista-menu"><a href="#servicios_escolares/datos_escolares/inscripcion">Inscripciones</a></li>
+                        </ul>
+                    </li>
+                    <li class="lista-menu"><a href="#servicios_escolares/sepe">SEPE</a></li>
+                    <li class="lista-menu"><a href="#servicios_escolares/bajas_totales">Bajas Totales</a></li>
+                </ul>
+            </li>
+
+            <li class="lista-menu"><a href="#financiamiento_y_becas"><span>Financiamiento y becas</span></a></li>
+
+            <li class="lista-menu"><a href="#actividades_extracurriculares"><span>Actividades Extracurriculares</span></a></li>
+
+            <li class="lista-menu"><a href="#iberobus"><span>Iberob&uacute;s</span></a></li>
+        </ul><!-- /.sidebar-menu -->
+    </section>
+    <!-- /.sidebar -->
+</div>
